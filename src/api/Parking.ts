@@ -3,7 +3,7 @@ import { Router } from 'express';
 
 const router = Router();
 
-router.post('/booking', parkingController.parking);
+router.post('/parking', parkingController.parking);
 router.delete('/cancel', parkingController.cancel);
 router.get('/', parkingController.getall);
 
